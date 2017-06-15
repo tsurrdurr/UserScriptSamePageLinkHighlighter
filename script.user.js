@@ -10,7 +10,12 @@
 	var anchors = document.getElementsByTagName('a');
 	for (var i = 0, k = anchors.length; i < k ; i++) {
 		if(anchors[i].href.startsWith(anchors[i].baseURI + '#')) {
-			anchors[i].style.color ='#BBBBBB';
+			applyStyle(anchors[i]);
 		}
+	}
+
+	function applyStyle(anchor){
+		anchor.style.color ='#BBBBBB';
+		//anchor.style.backgroundColor ='#BBBBBB';
 	}
 })();
