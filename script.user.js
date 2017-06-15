@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name           Anchor Title alternative highlight color
-// @namespace      
+// @namespace      https://github.com/tsurrdurr/UserScriptSamePageLinkHighlighter
 // @version	0.1
-// @description   something
-// @include        *
+// @description    Hightlights links starting with # with different color
+// @include     http://*
+// @include     https://*
+// @include     file://*
 // ==/UserScript==
 
 (function(){
